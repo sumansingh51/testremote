@@ -8,7 +8,7 @@ $dayHour = date('H', $day);
  
  
 
-$shipDate = '';
+$dfdf = '';
 if($dayNumber >= 1 && $dayNumber <= 5) {
 	/* Mon - Fir */
 	if ($dayHour < 14) {

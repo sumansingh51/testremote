@@ -5,7 +5,8 @@ $deliveryDate = "8/12/2018 10:25:50 AM";
 $day = 	strtotime($deliveryDate);
 $dayNumber = date('N', $day);
 $dayHour = date('H', $day);
-
+ 
+ 
 
 $shipDate = '';
 if($dayNumber >= 1 && $dayNumber <= 5) {
